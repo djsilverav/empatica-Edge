@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe  -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "empatica_ml-Debug-x86_64": {
+      "artifactName": "empatica_ml",
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\x86_64\" empatica_ml",
+      "abi": "x86_64",
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libempatica_ml.so",
+      "runtimeFiles": []
+    },
+    "empalinksample-Debug-x86_64": {
+      "artifactName": "empalinksample",
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\x86_64\" empalinksample",
+      "abi": "x86_64",
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libempalinksample.so",
+      "runtimeFiles": []
+    }
+  }
+}

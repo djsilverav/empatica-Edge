@@ -1,0 +1,61 @@
+{
+  "stringTable": {
+    "0": "C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sysroot -Dempalinksample_EXPORTS -IC:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/libnode/include/node -IC:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/scr/main/cpp -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/android/support/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=armv7-none-linux-androideabi19 --gcc-toolchain=C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sysroot -Dempatica_ml_EXPORTS -IC:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/libnode/include/node -IC:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/scr/main/cpp -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/android/support/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe  -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "empalinksample-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" empalinksample",
+      "buildType": "debug",
+      "toolchain": "2543596019",
+      "abi": "armeabi-v7a",
+      "artifactName": "empalinksample",
+      "files": [
+        {
+          "src": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\src\\main\\cpp\\empalinksample.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libempalinksample.so",
+      "runtimeFiles": []
+    },
+    "empatica_ml-Debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" empatica_ml",
+      "buildType": "debug",
+      "toolchain": "2543596019",
+      "abi": "armeabi-v7a",
+      "artifactName": "empatica_ml",
+      "files": [
+        {
+          "src": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libempatica_ml.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2543596019": {
+      "cppCompilerExecutable": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

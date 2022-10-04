@@ -1,0 +1,186 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":2}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 2
+  },
+  "sourceDirectory": "C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp",
+  "buildDirectory": "C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/release/x86",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_FIND_ROOT_PATH\u003dC:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\release\\prefab\\x86\\prefab",
+    "-DCMAKE_BUILD_TYPE\u003dRelease",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
+    "-DANDROID_ABI\u003dx86",
+    "-DANDROID_NDK\u003dC:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
+    "-DANDROID_PLATFORM\u003dandroid-19",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
+    "-DCMAKE_ANDROID_NDK\u003dC:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\release\\obj\\x86",
+    "-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d19"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/android-legacy.toolchain.cmake:415 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake:54 (include)\n  C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)\n  CMakeLists.txt:11 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/android-legacy.toolchain.cmake:415 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake:54 (include)
+  C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:11 (project)
+
+CMAKE SERVER: CMake Warning at C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/android-legacy.toolchain.cmake:415 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake:54 (include)
+  C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:11 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Deprecation Warning:\n  The 'cmake-server(7)' is deprecated.  Please port clients to use the\n  'cmake-file-api(7)' instead.\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Deprecation Warning:
+  The 'cmake-server(7)' is deprecated.  Please port clients to use the
+  'cmake-file-api(7)' instead.
+
+CMAKE SERVER: CMake Deprecation Warning:
+  The 'cmake-server(7)' is deprecated.  Please port clients to use the
+  'cmake-file-api(7)' instead.
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":100,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Initialize.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeGenericSystem.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Linux.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Platform/UnixPaths.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCInformation.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/Clang-C.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/Clang.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/GNU.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Internal/CMakeCheckCompilerFlag.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Clang-C.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Clang.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCXXInformation.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/Clang-CXX.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Compiler/Clang.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Clang-CXX.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/Platform/Android-Clang.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/android.toolchain.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/android-legacy.toolchain.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/platforms.cmake","C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/build/cmake/compiler_id.cmake"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeSystem.cmake","../../../.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeCCompiler.cmake","../../../.cxx/cmake/release/x86/CMakeFiles/3.18.1-g262b901-dirty/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"C:/Users/adriv/AppData/Local/Android/Sdk/cmake/3.18.1/share/cmake-3.18","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Release","projects":[{"buildDirectory":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/release/x86","hasInstallRule":false,"minimumCMakeVersion":"3.6.0","name":"empalinksample","sourceDirectory":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp","targets":[{"artifacts":["C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/build/intermediates/cmake/release/obj/x86/libempatica_ml.so"],"buildDirectory":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/release/x86","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O3 -DNDEBUG  -fPIC","defines":["empatica_ml_EXPORTS"],"includePath":[{"path":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/libnode/include/node"},{"path":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/scr/main/cpp"}],"isGenerated":false,"language":"CXX","sources":["native-lib.cpp"]}],"fullName":"libempatica_ml.so","isGeneratorProvided":false,"linkFlags":"-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"empatica_ml","sourceDirectory":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp","sysroot":"C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/build/intermediates/cmake/release/obj/x86/libempalinksample.so"],"buildDirectory":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/release/x86","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O3 -DNDEBUG  -fPIC","defines":["empalinksample_EXPORTS"],"includePath":[{"path":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/libnode/include/node"},{"path":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/scr/main/cpp"}],"isGenerated":false,"language":"CXX","sources":["empalinksample.cpp"]}],"fullName":"libempalinksample.so","isGeneratorProvided":false,"linkFlags":"-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog  -latomic -lm","linkerLanguage":"CXX","name":"empalinksample","sourceDirectory":"C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp","sysroot":"C:/Users/adriv/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

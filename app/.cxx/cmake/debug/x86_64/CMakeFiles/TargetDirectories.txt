@@ -1,0 +1,4 @@
+C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/debug/x86_64/CMakeFiles/empalinksample.dir
+C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/debug/x86_64/CMakeFiles/empatica_ml.dir
+C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/debug/x86_64/CMakeFiles/edit_cache.dir

@@ -1,0 +1,666 @@
+{
+    "version": 1,
+    "samplesPerInference": 7680,
+    "axesCount": 6,
+    "classes": [
+        "baseline",
+        "stress"
+    ],
+    "deployCounter": 13,
+    "folders": {
+        "input": "/home/input",
+        "output": "/home/output"
+    },
+    "frequency": 64,
+    "impulse": {
+        "inputBlocks": [
+            {
+                "id": 2,
+                "type": "time-series",
+                "name": "Time series",
+                "title": "Time series data",
+                "primaryVersion": true,
+                "padZeros": true,
+                "windowSizeMs": 120000,
+                "windowIncreaseMs": 60000,
+                "frequencyHz": 64,
+                "description": "First_Version"
+            }
+        ],
+        "dspBlocks": [
+            {
+                "id": 26,
+                "type": "flatten",
+                "name": "Flatten",
+                "axes": [
+                    "temp"
+                ],
+                "title": "Flatten",
+                "primaryVersion": true,
+                "input": 2,
+                "implementationVersion": 1,
+                "createdBy": "createImpulse",
+                "createdAt": "2022-08-27T13:44:40.889Z",
+                "mutated": true,
+                "metadata": {
+                    "created": "2022-09-15T15:31:46.635Z",
+                    "dspConfig": {
+                        "options": {
+                            "scale-axes": 1,
+                            "average": false,
+                            "minimum": true,
+                            "maximum": false,
+                            "rms": true,
+                            "stdev": false,
+                            "skewness": false,
+                            "kurtosis": true
+                        },
+                        "performance": {
+                            "latency": 10,
+                            "ram": 61452
+                        },
+                        "calculateFeatureImportance": true
+                    },
+                    "labels": [
+                        "baseline",
+                        "stress"
+                    ],
+                    "featureLabels": [
+                        "temp Minimum",
+                        "temp RMS",
+                        "temp Kurtosis"
+                    ],
+                    "valuesPerAxis": 3,
+                    "windowCount": 211,
+                    "featureCount": 3,
+                    "windowSizeMs": 120000,
+                    "windowIncreaseMs": 60000,
+                    "frequency": 64,
+                    "padZeros": true,
+                    "includedSamples": [
+                        {
+                            "id": 133364983,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 133347744,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 132000647,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 132000646,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 132000645,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 132000644,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 128864661,
+                            "windowCount": 11
+                        },
+                        {
+                            "id": 128842275,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840803,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 128840802,
+                            "windowCount": 17
+                        },
+                        {
+                            "id": 128840801,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 128840800,
+                            "windowCount": 17
+                        },
+                        {
+                            "id": 128840769,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840768,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840767,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840766,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128838999,
+                            "windowCount": 9
+                        }
+                    ],
+                    "outputConfig": {
+                        "type": "flat",
+                        "shape": {
+                            "width": 3
+                        }
+                    },
+                    "performance": {
+                        "latency": 10,
+                        "ram": 61452
+                    },
+                    "fftUsed": [],
+                    "includeEmptyLabels": false
+                }
+            },
+            {
+                "id": 42,
+                "type": "spectral-analysis",
+                "name": "Spectral features",
+                "axes": [
+                    "accx",
+                    "accy",
+                    "eda",
+                    "accz",
+                    "bvp"
+                ],
+                "title": "Spectral Analysis",
+                "primaryVersion": true,
+                "input": 2,
+                "implementationVersion": 2,
+                "createdBy": "createImpulse",
+                "createdAt": "2022-08-27T13:44:40.889Z",
+                "mutated": true,
+                "metadata": {
+                    "created": "2022-09-17T17:32:54.587Z",
+                    "dspConfig": {
+                        "options": {
+                            "scale-axes": 1,
+                            "filter-cutoff": 3,
+                            "filter-order": 6,
+                            "fft-length": 64,
+                            "spectral-peaks-count": 3,
+                            "spectral-peaks-threshold": 0.1,
+                            "spectral-power-edges": "0.1, 0.5, 1.0, 2.0, 5.0",
+                            "do-log": true,
+                            "do-fft-overlap": true,
+                            "filter-type": "none"
+                        },
+                        "performance": {
+                            "latency": 254,
+                            "ram": 154812
+                        },
+                        "calculateFeatureImportance": true
+                    },
+                    "labels": [
+                        "baseline",
+                        "stress"
+                    ],
+                    "featureLabels": [
+                        "accx RMS",
+                        "accx Skewness",
+                        "accx Kurtosis",
+                        "accx Spectral Power 0.5 - 1.5 Hz",
+                        "accx Spectral Power 1.5 - 2.5 Hz",
+                        "accx Spectral Power 2.5 - 3.5 Hz",
+                        "accx Spectral Power 3.5 - 4.5 Hz",
+                        "accx Spectral Power 4.5 - 5.5 Hz",
+                        "accx Spectral Power 5.5 - 6.5 Hz",
+                        "accx Spectral Power 6.5 - 7.5 Hz",
+                        "accx Spectral Power 7.5 - 8.5 Hz",
+                        "accx Spectral Power 8.5 - 9.5 Hz",
+                        "accx Spectral Power 9.5 - 10.5 Hz",
+                        "accx Spectral Power 10.5 - 11.5 Hz",
+                        "accx Spectral Power 11.5 - 12.5 Hz",
+                        "accx Spectral Power 12.5 - 13.5 Hz",
+                        "accx Spectral Power 13.5 - 14.5 Hz",
+                        "accx Spectral Power 14.5 - 15.5 Hz",
+                        "accx Spectral Power 15.5 - 16.5 Hz",
+                        "accx Spectral Power 16.5 - 17.5 Hz",
+                        "accx Spectral Power 17.5 - 18.5 Hz",
+                        "accx Spectral Power 18.5 - 19.5 Hz",
+                        "accx Spectral Power 19.5 - 20.5 Hz",
+                        "accx Spectral Power 20.5 - 21.5 Hz",
+                        "accx Spectral Power 21.5 - 22.5 Hz",
+                        "accx Spectral Power 22.5 - 23.5 Hz",
+                        "accx Spectral Power 23.5 - 24.5 Hz",
+                        "accx Spectral Power 24.5 - 25.5 Hz",
+                        "accx Spectral Power 25.5 - 26.5 Hz",
+                        "accx Spectral Power 26.5 - 27.5 Hz",
+                        "accx Spectral Power 27.5 - 28.5 Hz",
+                        "accx Spectral Power 28.5 - 29.5 Hz",
+                        "accx Spectral Power 29.5 - 30.5 Hz",
+                        "accx Spectral Power 30.5 - 31.5 Hz",
+                        "accx Spectral Power 31.5 - 32.5 Hz",
+                        "accy RMS",
+                        "accy Skewness",
+                        "accy Kurtosis",
+                        "accy Spectral Power 0.5 - 1.5 Hz",
+                        "accy Spectral Power 1.5 - 2.5 Hz",
+                        "accy Spectral Power 2.5 - 3.5 Hz",
+                        "accy Spectral Power 3.5 - 4.5 Hz",
+                        "accy Spectral Power 4.5 - 5.5 Hz",
+                        "accy Spectral Power 5.5 - 6.5 Hz",
+                        "accy Spectral Power 6.5 - 7.5 Hz",
+                        "accy Spectral Power 7.5 - 8.5 Hz",
+                        "accy Spectral Power 8.5 - 9.5 Hz",
+                        "accy Spectral Power 9.5 - 10.5 Hz",
+                        "accy Spectral Power 10.5 - 11.5 Hz",
+                        "accy Spectral Power 11.5 - 12.5 Hz",
+                        "accy Spectral Power 12.5 - 13.5 Hz",
+                        "accy Spectral Power 13.5 - 14.5 Hz",
+                        "accy Spectral Power 14.5 - 15.5 Hz",
+                        "accy Spectral Power 15.5 - 16.5 Hz",
+                        "accy Spectral Power 16.5 - 17.5 Hz",
+                        "accy Spectral Power 17.5 - 18.5 Hz",
+                        "accy Spectral Power 18.5 - 19.5 Hz",
+                        "accy Spectral Power 19.5 - 20.5 Hz",
+                        "accy Spectral Power 20.5 - 21.5 Hz",
+                        "accy Spectral Power 21.5 - 22.5 Hz",
+                        "accy Spectral Power 22.5 - 23.5 Hz",
+                        "accy Spectral Power 23.5 - 24.5 Hz",
+                        "accy Spectral Power 24.5 - 25.5 Hz",
+                        "accy Spectral Power 25.5 - 26.5 Hz",
+                        "accy Spectral Power 26.5 - 27.5 Hz",
+                        "accy Spectral Power 27.5 - 28.5 Hz",
+                        "accy Spectral Power 28.5 - 29.5 Hz",
+                        "accy Spectral Power 29.5 - 30.5 Hz",
+                        "accy Spectral Power 30.5 - 31.5 Hz",
+                        "accy Spectral Power 31.5 - 32.5 Hz",
+                        "eda RMS",
+                        "eda Skewness",
+                        "eda Kurtosis",
+                        "eda Spectral Power 0.5 - 1.5 Hz",
+                        "eda Spectral Power 1.5 - 2.5 Hz",
+                        "eda Spectral Power 2.5 - 3.5 Hz",
+                        "eda Spectral Power 3.5 - 4.5 Hz",
+                        "eda Spectral Power 4.5 - 5.5 Hz",
+                        "eda Spectral Power 5.5 - 6.5 Hz",
+                        "eda Spectral Power 6.5 - 7.5 Hz",
+                        "eda Spectral Power 7.5 - 8.5 Hz",
+                        "eda Spectral Power 8.5 - 9.5 Hz",
+                        "eda Spectral Power 9.5 - 10.5 Hz",
+                        "eda Spectral Power 10.5 - 11.5 Hz",
+                        "eda Spectral Power 11.5 - 12.5 Hz",
+                        "eda Spectral Power 12.5 - 13.5 Hz",
+                        "eda Spectral Power 13.5 - 14.5 Hz",
+                        "eda Spectral Power 14.5 - 15.5 Hz",
+                        "eda Spectral Power 15.5 - 16.5 Hz",
+                        "eda Spectral Power 16.5 - 17.5 Hz",
+                        "eda Spectral Power 17.5 - 18.5 Hz",
+                        "eda Spectral Power 18.5 - 19.5 Hz",
+                        "eda Spectral Power 19.5 - 20.5 Hz",
+                        "eda Spectral Power 20.5 - 21.5 Hz",
+                        "eda Spectral Power 21.5 - 22.5 Hz",
+                        "eda Spectral Power 22.5 - 23.5 Hz",
+                        "eda Spectral Power 23.5 - 24.5 Hz",
+                        "eda Spectral Power 24.5 - 25.5 Hz",
+                        "eda Spectral Power 25.5 - 26.5 Hz",
+                        "eda Spectral Power 26.5 - 27.5 Hz",
+                        "eda Spectral Power 27.5 - 28.5 Hz",
+                        "eda Spectral Power 28.5 - 29.5 Hz",
+                        "eda Spectral Power 29.5 - 30.5 Hz",
+                        "eda Spectral Power 30.5 - 31.5 Hz",
+                        "eda Spectral Power 31.5 - 32.5 Hz",
+                        "accz RMS",
+                        "accz Skewness",
+                        "accz Kurtosis",
+                        "accz Spectral Power 0.5 - 1.5 Hz",
+                        "accz Spectral Power 1.5 - 2.5 Hz",
+                        "accz Spectral Power 2.5 - 3.5 Hz",
+                        "accz Spectral Power 3.5 - 4.5 Hz",
+                        "accz Spectral Power 4.5 - 5.5 Hz",
+                        "accz Spectral Power 5.5 - 6.5 Hz",
+                        "accz Spectral Power 6.5 - 7.5 Hz",
+                        "accz Spectral Power 7.5 - 8.5 Hz",
+                        "accz Spectral Power 8.5 - 9.5 Hz",
+                        "accz Spectral Power 9.5 - 10.5 Hz",
+                        "accz Spectral Power 10.5 - 11.5 Hz",
+                        "accz Spectral Power 11.5 - 12.5 Hz",
+                        "accz Spectral Power 12.5 - 13.5 Hz",
+                        "accz Spectral Power 13.5 - 14.5 Hz",
+                        "accz Spectral Power 14.5 - 15.5 Hz",
+                        "accz Spectral Power 15.5 - 16.5 Hz",
+                        "accz Spectral Power 16.5 - 17.5 Hz",
+                        "accz Spectral Power 17.5 - 18.5 Hz",
+                        "accz Spectral Power 18.5 - 19.5 Hz",
+                        "accz Spectral Power 19.5 - 20.5 Hz",
+                        "accz Spectral Power 20.5 - 21.5 Hz",
+                        "accz Spectral Power 21.5 - 22.5 Hz",
+                        "accz Spectral Power 22.5 - 23.5 Hz",
+                        "accz Spectral Power 23.5 - 24.5 Hz",
+                        "accz Spectral Power 24.5 - 25.5 Hz",
+                        "accz Spectral Power 25.5 - 26.5 Hz",
+                        "accz Spectral Power 26.5 - 27.5 Hz",
+                        "accz Spectral Power 27.5 - 28.5 Hz",
+                        "accz Spectral Power 28.5 - 29.5 Hz",
+                        "accz Spectral Power 29.5 - 30.5 Hz",
+                        "accz Spectral Power 30.5 - 31.5 Hz",
+                        "accz Spectral Power 31.5 - 32.5 Hz",
+                        "bvp RMS",
+                        "bvp Skewness",
+                        "bvp Kurtosis",
+                        "bvp Spectral Power 0.5 - 1.5 Hz",
+                        "bvp Spectral Power 1.5 - 2.5 Hz",
+                        "bvp Spectral Power 2.5 - 3.5 Hz",
+                        "bvp Spectral Power 3.5 - 4.5 Hz",
+                        "bvp Spectral Power 4.5 - 5.5 Hz",
+                        "bvp Spectral Power 5.5 - 6.5 Hz",
+                        "bvp Spectral Power 6.5 - 7.5 Hz",
+                        "bvp Spectral Power 7.5 - 8.5 Hz",
+                        "bvp Spectral Power 8.5 - 9.5 Hz",
+                        "bvp Spectral Power 9.5 - 10.5 Hz",
+                        "bvp Spectral Power 10.5 - 11.5 Hz",
+                        "bvp Spectral Power 11.5 - 12.5 Hz",
+                        "bvp Spectral Power 12.5 - 13.5 Hz",
+                        "bvp Spectral Power 13.5 - 14.5 Hz",
+                        "bvp Spectral Power 14.5 - 15.5 Hz",
+                        "bvp Spectral Power 15.5 - 16.5 Hz",
+                        "bvp Spectral Power 16.5 - 17.5 Hz",
+                        "bvp Spectral Power 17.5 - 18.5 Hz",
+                        "bvp Spectral Power 18.5 - 19.5 Hz",
+                        "bvp Spectral Power 19.5 - 20.5 Hz",
+                        "bvp Spectral Power 20.5 - 21.5 Hz",
+                        "bvp Spectral Power 21.5 - 22.5 Hz",
+                        "bvp Spectral Power 22.5 - 23.5 Hz",
+                        "bvp Spectral Power 23.5 - 24.5 Hz",
+                        "bvp Spectral Power 24.5 - 25.5 Hz",
+                        "bvp Spectral Power 25.5 - 26.5 Hz",
+                        "bvp Spectral Power 26.5 - 27.5 Hz",
+                        "bvp Spectral Power 27.5 - 28.5 Hz",
+                        "bvp Spectral Power 28.5 - 29.5 Hz",
+                        "bvp Spectral Power 29.5 - 30.5 Hz",
+                        "bvp Spectral Power 30.5 - 31.5 Hz",
+                        "bvp Spectral Power 31.5 - 32.5 Hz"
+                    ],
+                    "valuesPerAxis": 35,
+                    "windowCount": 211,
+                    "featureCount": 175,
+                    "windowSizeMs": 120000,
+                    "windowIncreaseMs": 60000,
+                    "frequency": 64,
+                    "padZeros": true,
+                    "includedSamples": [
+                        {
+                            "id": 133364983,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 133347744,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 132000647,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 132000646,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 132000645,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 132000644,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 128864661,
+                            "windowCount": 11
+                        },
+                        {
+                            "id": 128842275,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840803,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 128840802,
+                            "windowCount": 17
+                        },
+                        {
+                            "id": 128840801,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 128840800,
+                            "windowCount": 17
+                        },
+                        {
+                            "id": 128840769,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840768,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840767,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840766,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128838999,
+                            "windowCount": 9
+                        }
+                    ],
+                    "outputConfig": {
+                        "type": "flat",
+                        "shape": {
+                            "width": 175
+                        }
+                    },
+                    "performance": {
+                        "latency": 254,
+                        "ram": 154812
+                    },
+                    "fftUsed": [
+                        64
+                    ],
+                    "includeEmptyLabels": false
+                }
+            },
+            {
+                "id": 120,
+                "type": "spectrogram",
+                "name": "Spectrogram",
+                "axes": [
+                    "eda"
+                ],
+                "title": "Spectrogram",
+                "primaryVersion": true,
+                "input": 2,
+                "implementationVersion": 3,
+                "createdBy": "createImpulse",
+                "createdAt": "2022-09-17T17:44:11.738Z",
+                "mutated": true,
+                "metadata": {
+                    "created": "2022-09-17T18:25:56.774Z",
+                    "dspConfig": {
+                        "options": {
+                            "frame_length": 2,
+                            "frame_stride": 1,
+                            "fft_length": 128,
+                            "noise_floor_db": -52,
+                            "show_axes": true
+                        },
+                        "performance": {
+                            "latency": 68,
+                            "ram": 32952
+                        },
+                        "calculateFeatureImportance": false
+                    },
+                    "labels": [
+                        "baseline",
+                        "stress"
+                    ],
+                    "valuesPerAxis": 7735,
+                    "windowCount": 211,
+                    "featureCount": 7735,
+                    "windowSizeMs": 120000,
+                    "windowIncreaseMs": 60000,
+                    "frequency": 64,
+                    "padZeros": true,
+                    "includedSamples": [
+                        {
+                            "id": 133364983,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 133347744,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 132000647,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 132000646,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 132000645,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 132000644,
+                            "windowCount": 10
+                        },
+                        {
+                            "id": 128864661,
+                            "windowCount": 11
+                        },
+                        {
+                            "id": 128842275,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840803,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 128840802,
+                            "windowCount": 17
+                        },
+                        {
+                            "id": 128840801,
+                            "windowCount": 18
+                        },
+                        {
+                            "id": 128840800,
+                            "windowCount": 17
+                        },
+                        {
+                            "id": 128840769,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840768,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840767,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128840766,
+                            "windowCount": 9
+                        },
+                        {
+                            "id": 128838999,
+                            "windowCount": 9
+                        }
+                    ],
+                    "outputConfig": {
+                        "type": "spectrogram",
+                        "shape": {
+                            "width": 119,
+                            "height": 65
+                        }
+                    },
+                    "performance": {
+                        "latency": 68,
+                        "ram": 32952
+                    },
+                    "fftUsed": [
+                        128
+                    ],
+                    "includeEmptyLabels": false
+                }
+            }
+        ],
+        "learnBlocks": [
+            {
+                "id": 17,
+                "type": "keras",
+                "name": "NN Classifier",
+                "dsp": [
+                    26,
+                    120,
+                    42
+                ],
+                "title": "Classification (Keras)",
+                "primaryVersion": true,
+                "mutated": true
+            }
+        ]
+    },
+    "project": {
+        "name": "Empatica",
+        "id": 130019,
+        "owner": "David",
+        "apiKey": "ei_048abb2ecfce1dfbaccb4b52ea3a4effdb257143ac8e43b2d5fc4fdedb0f88f9",
+        "studioHost": "studio.edgeimpulse.com"
+    },
+    "sensor": "fusion",
+    "tfliteModels": [
+        {
+            "arenaSize": 40480,
+            "inputFrameSize": 7913,
+            "inputTensor": "dense_input",
+            "outputTensor": "y_pred/Softmax:0",
+            "details": {
+                "modelType": "float32",
+                "inputs": [
+                    {
+                        "dataType": "float32",
+                        "name": "serving_default_x:0",
+                        "shape": [
+                            1,
+                            7913
+                        ],
+                        "quantizationScale": null,
+                        "quantizationZeroPoint": null
+                    }
+                ],
+                "outputs": [
+                    {
+                        "dataType": "float32",
+                        "name": "StatefulPartitionedCall:0",
+                        "shape": [
+                            1,
+                            2
+                        ],
+                        "quantizationScale": null,
+                        "quantizationZeroPoint": null
+                    }
+                ]
+            },
+            "modelPath": "/home/input/trained.tflite"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+Executable : C:\Users\adriv\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\adriv\AndroidStudioProjects\e4link-sample-project-android-main\app\.cxx\cmake\debug\armeabi-v7a
+empalinksample
+empatica_ml
+jvmArgs : 
+

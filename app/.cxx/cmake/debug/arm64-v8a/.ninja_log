@@ -1,0 +1,11 @@
+# ninja log v5
+353	1159	685759460	CMakeFiles/empatica_ml.dir/native-lib.cpp.o	228b5d536b593dcb
+726	1253	685759460	CMakeFiles/empa_ml.dir/edge-impulse-sdk/classifier/ei_run_classifier_c.cpp.o	b76a94bbe82c5705
+1	1681	685759460	CMakeFiles/empalinksample.dir/empalinksample.cpp.o	7d18f33715a6589b
+1161	1820	685759461	C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/build/intermediates/cmake/debug/obj/arm64-v8a/libempatica_ml.so	d8e1633b41cbfd7b
+1254	1959	685759461	C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/build/intermediates/cmake/debug/obj/arm64-v8a/libempa_ml.so	93c8e94215453d6a
+1688	2324	685759461	C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/build/intermediates/cmake/debug/obj/arm64-v8a/libempalinksample.so	2ebe0bc62a80bdee
+4	729	685760787	CMakeFiles/empalinksample.dir/empalinksample.cpp.o	7d18f33715a6589b
+732	866	685760788	C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/build/intermediates/cmake/debug/obj/arm64-v8a/libempalinksample.so	2ebe0bc62a80bdee
+10	964	686343342	CMakeFiles/empalinksample.dir/empalinksample.cpp.o	7d18f33715a6589b
+964	1517	686343343	C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/build/intermediates/cmake/debug/obj/arm64-v8a/libempalinksample.so	2ebe0bc62a80bdee

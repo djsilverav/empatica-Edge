@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe  -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "empalinksample-Debug-armeabi-v7a": {
+      "artifactName": "empalinksample",
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" empalinksample",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libempalinksample.so",
+      "runtimeFiles": []
+    },
+    "empatica_ml-Debug-armeabi-v7a": {
+      "artifactName": "empatica_ml",
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" empatica_ml",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libempatica_ml.so",
+      "runtimeFiles": []
+    }
+  }
+}

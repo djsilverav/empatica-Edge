@@ -1,0 +1,61 @@
+{
+  "stringTable": {
+    "0": "C:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/.cxx/cmake/debug/x86_64",
+    "1": "--target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sysroot -Dempalinksample_EXPORTS -IC:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/libnode/include/node -IC:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/scr/main/cpp -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sysroot -Dempatica_ml_EXPORTS -IC:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/libnode/include/node -IC:/Users/adriv/AndroidStudioProjects/e4link-sample-project-android-main/app/src/main/cpp/scr/main/cpp -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/cxx-stl/llvm-libc++/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sources/cxx-stl/llvm-libc++abi/include -isystem C:/Users/adriv/AppData/Local/Android/Sdk/ndk/18.1.5063045/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\build\\cmake\\platforms.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe  -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "empatica_ml-Debug-x86_64": {
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\x86_64\" empatica_ml",
+      "buildType": "debug",
+      "toolchain": "2543596019",
+      "abi": "x86_64",
+      "artifactName": "empatica_ml",
+      "files": [
+        {
+          "src": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\src\\main\\cpp\\native-lib.cpp",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libempatica_ml.so",
+      "runtimeFiles": []
+    },
+    "empalinksample-Debug-x86_64": {
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\debug\\x86_64\" empalinksample",
+      "buildType": "debug",
+      "toolchain": "2543596019",
+      "abi": "x86_64",
+      "artifactName": "empalinksample",
+      "files": [
+        {
+          "src": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\src\\main\\cpp\\empalinksample.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libempalinksample.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {
+    "2543596019": {
+      "cppCompilerExecutable": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\18.1.5063045\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

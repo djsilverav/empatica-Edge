@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android-legacy.toolchain.cmake",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\release\\x86_64\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe  -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\release\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "empalinksample-Release-x86_64": {
+      "artifactName": "empalinksample",
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\release\\x86_64\" empalinksample",
+      "abi": "x86_64",
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libempalinksample.so",
+      "runtimeFiles": []
+    },
+    "empatica_ml-Release-x86_64": {
+      "artifactName": "empatica_ml",
+      "buildCommand": "C:\\Users\\adriv\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe -C \"C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\.cxx\\cmake\\release\\x86_64\" empatica_ml",
+      "abi": "x86_64",
+      "output": "C:\\Users\\adriv\\AndroidStudioProjects\\e4link-sample-project-android-main\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64\\libempatica_ml.so",
+      "runtimeFiles": []
+    }
+  }
+}
